@@ -3,6 +3,14 @@
 
 The repository has code which is exclusively written for ZEDI project. 
 
+A raw data file directly from the cloud base would be as follows:
+
+Node No |Device ID|City|Location ID|ID|.......(Data Fields).....
+
+IDs 1,2,3,4,5,6 : Current-Voltage / Frequency data sampled at 1 minute
+ID 7 : Other sensor data sampled at 5 minutes
+
+
 The segregator will generate the ZEDI files which will be in the following format:
 
 "|" is the separator used .
@@ -23,6 +31,13 @@ For 3 phase other sensor data which include the Temperature,Humidity,Pressure,PI
 
 ![image](https://github.com/24Lights/ZEDI-Segregation/assets/134679427/88d4e393-ca98-47e3-a623-d404c361234f)
 
+## The Segregator code 
+
+This contains the segy.py file, which does the file segregation process from the raw data file to the .csv files in the orders, as mentioned earlier.
+
+## The cleanser code
+
+This contains the cleanser.py file, which sorts according to the date-time in each file, which the segregator generates.
 
 
 
