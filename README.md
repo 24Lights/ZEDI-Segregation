@@ -46,6 +46,7 @@ New benchmark - ~18k files segregated in 6 mins
 PATCH 2: segy.py is now segy_patch1.py, and cleansing code.py is added
 
 (Ongoing) : GPU integration and large-scale parallelization via the cloud.
+(Ongoing) : Conversion of raw files of .txt to .parquet 
 
 
 
