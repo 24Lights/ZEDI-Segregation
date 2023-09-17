@@ -42,6 +42,9 @@ This contains the cleanser.py file, which sorts according to the date-time in ea
 PATCH 1: Integrated Multiprocessing in the segy.py. 
 New benchmark - ~18k files segregated in 6 mins
 
+
+PATCH 2: segy.py is now segy_patch1.py, and cleansing code.py is added
+
 (Ongoing) : GPU integration and large-scale parallelization via the cloud.
 
 
