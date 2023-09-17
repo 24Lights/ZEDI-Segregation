@@ -3,7 +3,7 @@
 
 The repository has code which is exclusively written for ZEDI project. 
 
-The segregator will segregate the ZEDI files which are in the following format:
+The segregator will generate the ZEDI files which will be in the following format:
 
 "|" is the separator used .
 
@@ -22,6 +22,9 @@ Time|Freq(R)|Freq(Y)|Freq(B)
 For 3 phase other sensor data which include the Temperature,Humidity,Pressure,PIR1,PIR2,Co2,Therm1,Therm2,Therm3:
 
 ![image](https://github.com/24Lights/ZEDI-Segregation/assets/134679427/88d4e393-ca98-47e3-a623-d404c361234f)
+
+
+
 
 
 
